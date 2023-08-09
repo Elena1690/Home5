@@ -1,0 +1,115 @@
+h1 {
+    color: rgb(0, 41, 128);
+    background-color: rgb(249, 255, 167);
+}
+
+* {
+    font-style: italic;
+}
+
+header {
+    border: 4px solid #aaff00;
+ }
+
+h2 {
+    text-decoration: line-through;
+}
+
+#sidebar {
+    background: rgb(253, 104, 238);
+    width: 150px;
+}
+#sidebar1 {
+    background: rgb(104, 253, 136);
+    width: 150px;
+}
+
+.visual {
+    border: 4px solid #e62525;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 10px; 
+    width: 50%
+}
+
+figure img {
+    max-width: 100%;
+}
+
+p > a {
+    border: 2px solid rgb(129, 204, 250);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 10px; 
+    background: rgb(120, 249, 249);  
+}
+
+h2 + p {
+    background: url(https://media.istockphoto.com/id/1442295498/ru/фото/крупным-планом-морская-пейзажная-поверхность-голубой-морской-воды-с-небольшими-волнами-ряби.jpg?b=1&s=612x612&w=0&k=20&c=ihdTHjSRLW3sxUoXvIfFHmakchp9CuwhsGh4ggp-YfM=);
+    padding: 15px;
+    font-size: 10px; 
+    width: 200px;
+}
+
+h3 ~ p {
+    background: rgb(134, 85, 248);
+    width: 500px;
+    font-size: 30px; 
+}
+
+[class=figure] {
+    border: 2px solid rgb(250, 116, 255);
+    width: 400px;
+}
+
+[class] {
+    color: rgb(255, 0, 225) 
+}
+
+fieldset {
+    color: rgb(165, 121, 8)
+}
+
+[type=checkbox] {
+    background: rgb(248, 217, 178);   
+}
+
+p > label {
+    color:rgb(134, 85, 248)
+}
+
+[id="1"] {
+    background-color: #e62525;
+}
+
+[id="2"] {
+   background-color: green; 
+}
+
+[id="3"] {
+    background-color: yellow;
+}
+
+[src] {
+    border: 5px dashed rgb(217, 122, 122);
+}
+
+input.text {
+    background: #aaff00;
+}
+
+.number .box [type="number"]{
+    background: #e62525;
+}
+
+[src$="png"] {
+    display: none;
+}
+
+a[href^="http:"] {
+    border: 2px dashed rgb(17, 0, 255);
+}
+
+.figure.figure2 {
+    border: 2px dashed rgb(255, 0, 60);
+}

@@ -3,9 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Селектори</title>    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="../style/style.css"> 
 </head>
 <body>
-    
+  <header>
+      <h1>Види селекторів:</h1>
+  </header>
+   <main>
+    <div id=univ>
+         <p>
+             ( * ) - Універсальний селектор - один стиль для всіх елементів сторінки (шрифт, підкреслення і т.п)
+         </p>
+     </div>    
+         <p id="sidebar">
+             ( # ) - вибирає всі елементи з заданою назвою id 
+         </p>  
+         <p class="visual">
+             ( . ) - Вибирає элементи з заданим класом
+         </p> 
+         <p>
+             <a href="https://google.com"> ( A > P) - Вибирає всі дочірні элементы A, у яких батьківський элемент P </a>        
+         </p>
+         <h2>( H2 + P ) вибирає всі елементи P, </h2>
+            <p>
+              які прозміщені одразу після H2
+            </p>
+         <h3>( H3 ~ p ) - Вибирає всі елементи Р, которі слідують одразу за элементом H3</h3>
+           <p>
+             Tа всі элементы P, які знаходяться на одному рівні вкладеності
+           </p>  
+           <p>
+            Tа всі элементы P, які знаходяться на одному рівні вкладеності
+          </p> 
+     <div class="figure">
+         ( [=] ) - обирає вcі элементи з завданим атрибутом TYPE і класом CHECKBOX
+     </div>
+     <div class="figure1">
+         ( [] ) - обирає вcі элементи з атрибутом CLASS
+     </div><br>   
+     <a href="https://itwiki.dev/front-end/css-reference/selectors/attr-value-4">атрибут*="значення"</a>
+         <h3>Cлід застосувати до тега з певним атрибутом, коли частиною його значення є деякий текст. При цьому точно не відомо, в якому місці значення включено цей текст</h3>
+            <aside id="sidebar1">
+              <ul class="sidebarmenu">            
+                 <li ><a class="figure figure2" href="https://google.com">Google</a></li>
+                 <li ><a class="figure" href="https://amazon.com">Amazon</a></li>
+                 <li><a href="http://nordstorm.com">Nordstorm</a></li>
+              </ul>
+           </aside>               
+         <figure class="visual">
+             <img src="https://kartinki.pibig.info/uploads/posts/2023-04/1681270464_kartinki-pibig-info-p-samaya-yarkaya-kartinka-v-mire-arti-krasiv-2.jpg" alt="img">            
+             <img src="https://kartinki.pibig.info/uploads/posts/2023-04/1681270464_kartinki-pibig-info-p-samaya-yarkaya-kartinka-v-mire-arti-krasiv-2.png" alt="png"> 
+            </figure>  
+             <br>
+           <h3 class="sel">Споріднені селектори</h3>
+             <p>
+                 <a  href="https://google.com">Google</a>
+                 <a  href="https://amazon.com">Amazon</a>
+             </p>
+         <div id="elements">
+             <h2>Cусідні елементи</h2>
+                 <p>
+                     <a  href="https://nordstorm.com">Nordstorm</a>
+                     <a  href="https://wallmart.com">Wallmart</a>
+                  </p>
+         </div>
+             <fieldset>
+                    <p>
+                       <input id="1" type="text" name="red">
+                       <label for="1">Red</label><br>
+                       <input id="2" type="email" name="green">
+                       <label for="2">Green</label><br>
+                       <input id="3" type="password" name="yellow">
+                       <label for="3">Yellow</label><br> 
+                    </p>
+            </fieldset>   
+            <div id="table">
+                 <input class="text" id="4" type="text" name="text">
+                 <input id="5" type="text" name="text2">
+            </div>   
+            <div class="number">
+                <div class="box">   
+                     <input type="number" name="box">              
+                 </div>
+            </div>          
+        </main>
+        <footer>
+            <hr>
+            <h5>Контактна інформація:</h5>
+             <img width="20" src="https://t3.ftcdn.net/jpg/01/05/69/02/360_F_105690295_weFR0LI9W0d4gCyjQAReMUrAe1z07tgt.jpg" alt="viber">
+             <a href="viber:380932444635">+3 8 (093) 2 444 635 </a>
+                 <br>
+             <img width="20" src="https://t3.ftcdn.net/jpg/01/05/69/02/360_F_105690295_weFR0LI9W0d4gCyjQAReMUrAe1z07tgt.jpg" alt="tel">
+             <a href="tel:380932444635">+3 8 (093) 2 444 635 </a>          
+        </footer>
 </body>
 </html>
